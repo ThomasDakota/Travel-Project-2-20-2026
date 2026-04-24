@@ -20,37 +20,48 @@ section {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/gozalandia.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
+    background-image: url('../images/Purplenotepaper.jpg'), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/PurpleGingham.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 700px auto, cover, cover;
+    background-position: left 20px top 20px, center center, center center;
+    color: #49043c;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+    margin-bottom: 60px;
+}
 
+header h1,
+header h2,
+header h3 {
+    line-height: 1.1;
+    margin: 5px 0;
 }
 
 header h1 {
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 1;
+    font-weight: 300;
+    font-size: 70px;
     letter-spacing: 5px;
     margin: 30px 0;
 }
 
 header h2 {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5;
+    font-weight: 150;
+    font-size: 20px;
     letter-spacing: 5px;
     margin: 0;
 }
 
+
 header h3 {
     font-weight: 900;
     font-size: 24px;
-    line-height: 1.5;
     letter-spacing: 5px;
     margin: 0;
+    position: relative;
+    left: 150px;
 }
 
 header a {
@@ -60,26 +71,39 @@ header a {
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    background: white;
     text-decoration: none;
-    color: navy;
+    color: #F3F2F9;
+    background-color: #49043c;
     padding: 16px 32px;
-    margin-top: 32px;
+    margin-top: 15px;
+    margin-left: 215px;
     display: inline-block;
 }
 
 footer {
     color: white;
-    background-image: linear-gradient(rgba(19, 70, 43, 0.6), rgba(19, 70, 43, 0.6)), url('../images/Rincon.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #B9A8BF;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
     padding: 100px 0;
+}
+
+footer h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: -30px;
 }
 
 footer h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 footer p {
@@ -103,6 +127,16 @@ footer li {
 footer a {
     color: white;
     opacity: 0.7;
+}
+
+.Opensourced {
+    text-align: center;
+    color: #49043c;
+
+}
+
+.Opensourced a {
+    color: darkgreen;
 }
 
 @media (max-width: 960px) {
