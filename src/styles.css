@@ -20,7 +20,10 @@ section {
 }
 
 header {
-    background-image: url('../images/Purplenotepaper.jpg'), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/PurpleGingham.jpg');
+    background-image:
+        url('../images/Purplenotepaper.jpg'),
+        url('../images/PurpleGingham.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 700px auto, cover, cover;
     background-position: left 20px top 20px, center center, center center;
