@@ -12,6 +12,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 
 section {
@@ -19,25 +20,22 @@ section {
     margin: 0 auto;
 }
 
+
 header {
+    background: #ECE69D;;
     background-image:
-        url('../images/Purplenotepaper.jpg'),
-        url('../images/PurpleGingham.jpg'),
+        url('../images/Bulletin Board.jpg'),
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 700px auto, cover, cover;
-    background-position: left 20px top 20px, center center, center center;
-    color: #49043c;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 700px auto, cover;
     text-align: left;
     padding-top: 150px;
     padding-bottom: 120px;
-    padding-left: 60px;
-    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+    padding-left: 20px;
     margin-bottom: 60px;
 }
 
 header h1,
-header h2,
 header h3 {
     line-height: 1.1;
     margin: 5px 0;
@@ -48,13 +46,7 @@ header h1 {
     font-size: 70px;
     letter-spacing: 5px;
     margin: 30px 0;
-}
-
-header h2 {
-    font-weight: 150;
-    font-size: 20px;
-    letter-spacing: 5px;
-    margin: 0;
+    margin-left: 80px;
 }
 
 
@@ -76,16 +68,70 @@ header a {
     text-transform: uppercase;
     text-decoration: none;
     color: #F3F2F9;
-    background-color: #49043c;
+    background-color: #699BDE;
     padding: 16px 32px;
     margin-top: 15px;
     margin-left: 215px;
     display: inline-block;
 }
 
+.StarvedWaterfall {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #ECE69D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.oglesby {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+main h3,
+main h2,
+main p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #21392c;
+}
+
+main h2 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #21392c;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+    max-width: 900px;
+}
+
 footer {
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #B9A8BF;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #85A664;
     background-repeat: no-repeat;
     background-size: cover;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
