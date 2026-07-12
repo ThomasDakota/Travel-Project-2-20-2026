@@ -11,18 +11,28 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 
 header {
-    background: #ECE69D;;
+    background: #ECE69D;
+    ;
     background-image:
         url('../images/Bulletin Board.jpg'),
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
@@ -75,7 +85,12 @@ header a {
     display: inline-block;
 }
 
-.StarvedWaterfall {
+.natureimg {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    max-width: 100%;
     display: inline-block;
     margin: 0 auto;
     max-width: 50%;
@@ -88,17 +103,19 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
-    padding: 100px 0;
+    padding: 25px 0px -25px 0px;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 60px;
+    line-height: 1.7;
 }
 
-.oglesby {
+.natureimg {
     display: inline-block;
     margin: 0 auto;
     max-width: 50%;
     height: auto;
+    max-width: 100%;
 }
 
 main h3,
@@ -113,6 +130,7 @@ main h3 {
     font-size: 28px;
     margin-bottom: 10px;
     color: #21392c;
+    margin: 0%;
 }
 
 main h2 {
@@ -120,6 +138,7 @@ main h2 {
     font-size: 22px;
     margin-bottom: 20px;
     color: #21392c;
+    margin: 0%;
 }
 
 main p {
@@ -127,6 +146,7 @@ main p {
     line-height: 26px;
     opacity: 0.8;
     max-width: 900px;
+    line-height: 2.0;
 }
 
 footer {
@@ -135,7 +155,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
-    padding: 100px 0;
 }
 
 footer h2 {
@@ -144,6 +163,7 @@ footer h2 {
     line-height: 30px;
     text-align: center;
     margin-top: -30px;
+    padding-top: 20px;
 }
 
 footer h3 {
@@ -210,4 +230,12 @@ footer a {
         padding: 12px 24px;
     }
 
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+
+    section {
+        padding: 30px;
+    }
 }
