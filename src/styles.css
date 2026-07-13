@@ -9,6 +9,10 @@ body {
     padding: 20px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,16 +23,16 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-columns-with-first-narrow {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
 }
 
+section.secondary {
+    background-color: #ECE69D;
+    padding: 50px 0;
+}
 
 header {
     background: #ECE69D;
@@ -147,6 +151,63 @@ main p {
     opacity: 0.8;
     max-width: 900px;
     line-height: 2.0;
+}
+
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0%;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #272044;
+    margin: 0%;
+}
+
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+}
+
+.card {
+    background: white;
+    margin: 30px 30px 30px 30px;
+
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0px 30px 30px 30px;
+    background: white
+}
+
+.btn {
+    display: block;
+    color: #272044;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #699BDE;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 footer {
